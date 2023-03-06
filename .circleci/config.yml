@@ -3,14 +3,14 @@ jobs:
   test:
     working_directory: ~/serverless
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:16
     steps:
       - checkout
       - restore_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
       - restore_cache:
           key: node-v1-{{ checksum "package.json" }}-{{ arch }}
-      - run: yarn add --dev jest
+      - run: yarn install
       - save_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
           paths:
