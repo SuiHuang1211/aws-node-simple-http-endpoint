@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678118038024" clover="3.2.0">
+  <project timestamp="1678118038024" name="All files">
+    <metrics statements="11" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1" elements="18" coveredelements="8" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+    <file name="handler.js" path="C:\Users\ShuiHuangWong\Desktop\personal\serverless\aws-node-simple-http-endpoint\handler.js">
+      <metrics statements="11" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <line num="4" count="2" type="cond" truecount="2" falsecount="2"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
